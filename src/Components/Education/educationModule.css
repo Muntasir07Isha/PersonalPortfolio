@@ -1,0 +1,66 @@
+.timeline-header{
+    font-family: "Poppins";
+    color: goldenrod;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.main-timeline{
+    position: relative;
+    
+}
+
+.vertical-timeline-element{
+   
+    padding: 23px;
+    
+    color: cyan;
+    font-family: "Poppins";
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    font-size: 20px;
+    
+}
+.vertical-timeline-element .vertical-timeline-element-title,
+.vertical-timeline-element .vertical-timeline-element-subtitle,
+.vertical-timeline-element p {
+    background: linear-gradient(to left, rgb(59, 247, 247) 10%, rgb(253, 112, 253) 90%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+.vertical-timeline-element-subtitle{
+    font-size: 26px;
+}
+.vertical-timeline-element p{
+    font-size: 16px;
+}
+.vertical-timeline-element-content{
+    background-color:rgb(1, 1, 75) ;
+}
+.closing-timeline-element {
+    margin: 0 auto;
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+    height: 0; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+  .closing-timeline-element .vertical-timeline-element-content {
+    display: none;
+
+  }

@@ -1,0 +1,51 @@
+.contact-header{
+    text-align: center;
+    padding: 20px;
+    border: 1px dashed darkcyan;
+    padding: 20px;
+    width: 60%;
+   margin-left: 20%;
+}
+
+.contact-header h1{
+    font-size: 36px;
+    font-family: "Poppins";
+    color: saddlebrown;
+    
+}
+.contact-header h3 {
+    font-size: 36px;
+    color: sienna;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a{
+    color:darkblue ;
+    font-size: 20px;
+    transition:color 0.3s ease-in-out ;
+    border: 1px solid white;
+    padding: 7px;
+    background: white;
+    border-radius: 15px;
+}
+.social-icons a:hover {
+    color: violet;
+  }
+  @media (max-width: 768px){
+
+.contact-header{
+  margin-left: 40px;
+}
+
+
+.social-icons{
+    margin-left: 10px;
+}
+
+  }

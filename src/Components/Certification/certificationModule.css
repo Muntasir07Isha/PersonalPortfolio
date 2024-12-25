@@ -1,0 +1,94 @@
+.c-container{
+    display: column;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 60px ;
+   
+}
+.c-container h1{
+    Color:linear-gradient(to left, rgb(59, 247, 247) 10%, rgb(253, 112, 253) 90%);
+    margin-left: 50px;
+    text-align: center;
+   
+    font-family: "Poppins";
+  
+    background: linear-gradient(to left, rgb(59, 247, 247) 10%, rgb(253, 112, 253) 90%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: auto;
+}
+
+.c-content{
+    display: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.picture-container {
+    margin-right: 20px;
+  }
+  .cert-pic { 
+    height: auto; 
+    border-radius: 20px;
+  }
+  .certificate-details {
+    max-width: 600px; 
+    font-family: Poppins;
+  }
+  .certificate-title {
+   -webkit-text-fill-color: darkcyan;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .certificate-description {
+    -webkit-text-fill-color: white;
+    font-size: 15px;
+  }
+
+  @media (max-width: 768px) {
+    .certification-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .picture-container {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+
+
+    .certificate-title {
+        margin-top: 40px; 
+      }
+      .cert-pic{
+        max-width: 100%;
+        height: auto;
+      }
+      .c-content{
+        margin-top: 30px;
+      }
+      
+  }
+
+@media (max-width:480px){
+    .cert-pic{
+        width: 70%;
+    }
+    .certificate-title{
+        font-size: 15px;
+    }
+    .certificate-description {
+        -webkit-text-fill-color: white;
+        font-size: 12px;
+        
+      }
+      .c-container h1{
+        font-size: 20px;
+        margin-right: 50px;
+      }
+      
+
+
+}
