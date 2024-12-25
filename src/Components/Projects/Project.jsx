@@ -27,7 +27,7 @@ const projects = [
       id:3,
       title:"WeatherApp",
       imageUrl:weatherImage,
-      link:"https://gorgeous-begonia-78820b.netlify.app/"
+      link:"https://weather2024-dusky.vercel.app"
     
     },
 
