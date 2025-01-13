@@ -11,7 +11,7 @@ const projects = [
   {
     id: 1,
     title: "NextWealth Bank App",
-    description: "A web app promoting public health awareness with detailed resources and an intuitive design.",
+    description: "NextWealth Bank App: A modern banking web application featuring real-time transaction functionality and an AI-powered chatbot for seamless user interaction. Designed for a smooth and intuitive user experience with cutting-edge technology.",
     imageUrl: NextWealth,
     link: "https://next-wealth-bank.vercel.app",
   },
