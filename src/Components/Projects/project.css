@@ -60,6 +60,9 @@
     font-family: "Poppins";
     
 }
+
+
+
 @media (max-width: 768px) {
     .project-list {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -95,3 +98,29 @@
         padding: 6px;
     }
 }
+
+.project-item {
+    background: #ffffff; /* White background for better contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+    padding: 15px;
+    margin: 20px 0; /* Add vertical space between cards */
+    border: 1px solid #ddd; /* Light border for differentiation */
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .project-item:hover {
+    transform: translateY(-5px); /* Lift the card on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Enhance shadow */
+  }
+  
+  .project-description {
+    font-family: 'Roboto', sans-serif; /* A clean, modern font */
+    font-size: 1rem;
+    color: #444;
+    margin: 15px 0; /* Vertical spacing for better appearance */
+    line-height: 1.5;
+    text-align: center;
+    transition: transform 0.2s, color 0.2s;
+  }
+  
