@@ -1,5 +1,5 @@
 import React from 'react'
-import azureCetrt from '../../assets/Portfolio images/AZ-900 CERT.png'
+import azureCetrt from '../../assets/Portfolio_images/AZ-900 CERT.png'
 import './certificationModule.css'
 
 
