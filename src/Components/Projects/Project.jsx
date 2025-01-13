@@ -1,11 +1,11 @@
 import React from 'react';
 import './project.css';
 
-import gpt3Image from '../../assets/Portfolio images/gpt3.jpg';
-import weatherImage from '../../assets/Portfolio images/Weather.jpg';
-import ecommerceImage from '../../assets/Portfolio images/e-commerce.jpg';
-import aladin from '../../assets/Portfolio images/aladin.jpg';
-import NextWealth from '../../assets/Portfolio images/NextWealthBank.png';
+import gpt3Image from '../../assets/Portfolio_images/gpt3.jpg';
+import weatherImage from '../../assets/Portfolio_images/Weather.jpg';
+import ecommerceImage from '../../assets/Portfolio_images/e-commerce.jpg';
+import aladin from '../../assets/Portfolio_images/aladin.jpg';
+import NextWealth from '../../assets/Portfolio_images/NextWealthBank.png';
 
 const projects = [
   {
