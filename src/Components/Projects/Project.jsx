@@ -1,26 +1,26 @@
 import React from 'react';
 import './project.css';
 
-import gpt3Image from '../../assets/Portfolio_images/gpt3.jpg';
 import weatherImage from '../../assets/Portfolio_images/Weather.jpg';
 import ecommerceImage from '../../assets/Portfolio_images/e-commerce.jpg';
 import aladin from '../../assets/Portfolio_images/aladin.jpg';
 import NextWealth from '../../assets/Portfolio_images/NextWealthBank.png';
-
+import aiDrawRecognitionImage from '../../assets/Portfolio_images/ai-draw-image.jpg'
 const projects = [
+
   {
     id: 1,
+    title: "AI Draw Recognition",
+    description: "A real-time AI-powered drawing recognition app utilizing Google's Gemini Flash API. The app allows users to sketch on a canvas, instantly analyzing and predicting the drawn object with high accuracy. Built with React, Node.js, and TypeScript, it demonstrates cutting-edge AI inference and interactive AI-based sketch recognition.",
+    imageUrl: aiDrawRecognitionImage,  
+    link: "https://ai-draw-recognition-app.vercel.app", 
+  },
+  {
+    id: 2,
     title: "NextWealth Bank App",
     description: "NextWealth Bank App: A modern banking web application featuring real-time transaction functionality and an AI-powered chatbot for seamless user interaction. Designed for a smooth and intuitive user experience with cutting-edge technology.",
     imageUrl: NextWealth,
     link: "https://next-wealth-bank.vercel.app",
-  },
-  {
-    id: 2,
-    title: "GPT4 Visualize",
-    description: "An AI visualization app showcasing the integration of GPT-4 functionalities with an interactive user interface.",
-    imageUrl: gpt3Image,
-    link: "https://starlit-stardust-94693d.netlify.app/",
   },
   {
     id: 3,

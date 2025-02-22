@@ -10,9 +10,13 @@ const Hero = () => {
     <div className='lottie-container'>
         <Lottie animationData = {homePage}/>
         </div>
-        <h1><span> Hi,It's Muntasir Hossen,</span> Software Developer,</h1>
-        <h3>Sydney,Australia</h3>
-        <p> I am a recent graduate with a budding career in software development, Currently working as Junior Software Developer at HaemaGlobal Ltd. </p>
+        <h1><span>Hi, I'm Muntasir Hossen,</span> Software Developer</h1>
+<h3>Sydney, Australia</h3>
+<p>
+    I am a software developer at <b>DaxroMedical Ltd.</b>, specializing in building scalable and user-friendly web applications. 
+    Passionate about modern web technologies, I focus on creating efficient, high-performance solutions.
+</p>
+
        
     </div>
   )
