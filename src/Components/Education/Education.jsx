@@ -58,8 +58,8 @@ const timelineData = [
 
   {
     date: '6/2024 - Present',
-    title: 'Junior Software Developer',
-    subtitle: 'HaemaGlobal PTY LTD',
+    title: 'Software Developer',
+    subtitle: 'DaxroMecial PTY LTD',
     location: 'Woolloomooloo, New South Wales, Australia ',
     description: 'I am currently working as a Junior Software Developer, specializing in building tailored web applications for medical clients at HaemaGlobal PTY LTD. In this role, I focus on developing intuitive and secure web solutions that meet the unique needs of our medical clients.',
     icon: <FaBriefcase />,
